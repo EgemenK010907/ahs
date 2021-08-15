@@ -32,11 +32,7 @@ if ( $argc < 2 ){
   \___ \| | | | '_ \/ __|/ __| '__| | '_ \ / _ \
   ____) | |_| | |_) \__ \ (__| |  | | |_) |  __/
  |_____/ \__,_|_.__/|___/\___|_|  |_|_.__/ \___|
-";
-echo "\033[1;37m[\033[1;32m+\033[1;37m] Link Channel: \033[1;32m ".$argv[1]."\n";
-echo "\033[1;37m[\033[1;32m*\033[1;37m] Tools Berjalan:\033[1;32m Started\n";
-echo "\033[1;32m[\033[1;37m~\033[1;32m] Proses Mulai: \033[1;33m".date("Y/m/d H:i:s")."\n";
-echo "\033[1;32m[\033[1;37m@\033[1;32m] Refres Waktu Detik[\033[1;37m5\033[1;32m]\033[1;37m Seconds\n\n";
+
 while (1){
   $channel = $argv[1];
   $t = file_get_contents($channel);
